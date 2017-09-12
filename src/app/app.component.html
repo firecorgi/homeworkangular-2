@@ -1,0 +1,23 @@
+<h1>
+    {{title}}
+</h1>
+
+<!-- {{remain()}}. out of {{todos.length}}
+<a href="javascript:void(0)" (click)="archive()">[archive]</a> -->
+
+<br>
+
+<form (submit)="addTodo()" class="form-01">
+    <input type="text" name="newTodo" id="" [(ngModel)]="newTodo" autofocus>
+    <input type="submit" value="Add">
+</form>
+
+<ul class="ul-list-01">
+    <li *ngFor="let t of todos">
+        <span>
+          <input type=" text "  [(ngModel)]="t.name" (click)="isClassVisible = !isClassVisible" [ngClass]="{'my-class': isClassVisible}" >
+      </span>
+    </li>
+</ul>
+
+<br>

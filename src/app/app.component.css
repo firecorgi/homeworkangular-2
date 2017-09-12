@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 80px;
+    text-align: center;
+}
+
+.form-01 {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.form-01 input {
+    height: 50px;
+}
+
+.form-01 input:first-of-type {
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.form-01 input:last-of-type {
+    height: 57px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+.form-01 input:last-of-type:hover {
+    cursor: pointer;
+}
+
+.ul-list-01 {
+    text-align: center;
+}
+
+.ul-list-01 input:last-of-type {
+    width: 200px;
+    height: 50px;
+    padding-left: 20px;
+}
+
+.ul-list-01 li {
+    margin-bottom: 20px;
+}
+
+.my-class {
+    text-decoration: line-through;
+}
